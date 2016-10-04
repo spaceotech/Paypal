@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FDDFFF51460571F488113F2 /* Pods_SOPaypal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B2740D6C363DA730067F1E /* Pods_SOPaypal.framework */; };
+		F954A4FB1DA3A73100C7CE66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F954A4FA1DA3A73100C7CE66 /* AppDelegate.swift */; };
+		F954A4FD1DA3A73100C7CE66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F954A4FC1DA3A73100C7CE66 /* ViewController.swift */; };
+		F954A5001DA3A73100C7CE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F954A4FE1DA3A73100C7CE66 /* Main.storyboard */; };
+		F954A5021DA3A73100C7CE66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F954A5011DA3A73100C7CE66 /* Assets.xcassets */; };
+		F954A5051DA3A73100C7CE66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F954A5031DA3A73100C7CE66 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		303B628F30912A1083708267 /* Pods-SOPaypal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOPaypal.release.xcconfig"; path = "Pods/Target Support Files/Pods-SOPaypal/Pods-SOPaypal.release.xcconfig"; sourceTree = "<group>"; };
+		B5B2740D6C363DA730067F1E /* Pods_SOPaypal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOPaypal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD7A06B8496D8D84137EEFD /* Pods-SOPaypal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOPaypal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SOPaypal/Pods-SOPaypal.debug.xcconfig"; sourceTree = "<group>"; };
+		F954A4F71DA3A73100C7CE66 /* SOPaypal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOPaypal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F954A4FA1DA3A73100C7CE66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F954A4FC1DA3A73100C7CE66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F954A4FF1DA3A73100C7CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F954A5011DA3A73100C7CE66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F954A5041DA3A73100C7CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F954A5061DA3A73100C7CE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F954A50C1DA3BF3400C7CE66 /* SOPaypal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOPaypal-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F954A4F41DA3A73100C7CE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDDFFF51460571F488113F2 /* Pods_SOPaypal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8DC60AD9653DDC1B82C8CA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2740D6C363DA730067F1E /* Pods_SOPaypal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DC981EA560826926694E4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7A06B8496D8D84137EEFD /* Pods-SOPaypal.debug.xcconfig */,
+				303B628F30912A1083708267 /* Pods-SOPaypal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F954A4EE1DA3A73100C7CE66 = {
+			isa = PBXGroup;
+			children = (
+				F954A4F91DA3A73100C7CE66 /* SOPaypal */,
+				F954A4F81DA3A73100C7CE66 /* Products */,
+				C0DC981EA560826926694E4A /* Pods */,
+				A8DC60AD9653DDC1B82C8CA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F954A4F81DA3A73100C7CE66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F954A4F71DA3A73100C7CE66 /* SOPaypal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F954A4F91DA3A73100C7CE66 /* SOPaypal */ = {
+			isa = PBXGroup;
+			children = (
+				F954A4FA1DA3A73100C7CE66 /* AppDelegate.swift */,
+				F954A4FC1DA3A73100C7CE66 /* ViewController.swift */,
+				F954A4FE1DA3A73100C7CE66 /* Main.storyboard */,
+				F954A5011DA3A73100C7CE66 /* Assets.xcassets */,
+				F954A5031DA3A73100C7CE66 /* LaunchScreen.storyboard */,
+				F954A5061DA3A73100C7CE66 /* Info.plist */,
+				F954A50C1DA3BF3400C7CE66 /* SOPaypal-Bridging-Header.h */,
+			);
+			path = SOPaypal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F954A4F61DA3A73100C7CE66 /* SOPaypal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F954A5091DA3A73100C7CE66 /* Build configuration list for PBXNativeTarget "SOPaypal" */;
+			buildPhases = (
+				8D3C7779F1FDC93BE5A014B4 /* [CP] Check Pods Manifest.lock */,
+				F954A4F31DA3A73100C7CE66 /* Sources */,
+				F954A4F41DA3A73100C7CE66 /* Frameworks */,
+				F954A4F51DA3A73100C7CE66 /* Resources */,
+				D431EB9A923B89AD93BDE7F3 /* [CP] Embed Pods Frameworks */,
+				6D74DF32ABAADA223D1995DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOPaypal;
+			productName = SOPaypal;
+			productReference = F954A4F71DA3A73100C7CE66 /* SOPaypal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F954A4EF1DA3A73100C7CE66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = myCompany;
+				TargetAttributes = {
+					F954A4F61DA3A73100C7CE66 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F954A4F21DA3A73100C7CE66 /* Build configuration list for PBXProject "SOPaypal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F954A4EE1DA3A73100C7CE66;
+			productRefGroup = F954A4F81DA3A73100C7CE66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F954A4F61DA3A73100C7CE66 /* SOPaypal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F954A4F51DA3A73100C7CE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F954A5051DA3A73100C7CE66 /* LaunchScreen.storyboard in Resources */,
+				F954A5021DA3A73100C7CE66 /* Assets.xcassets in Resources */,
+				F954A5001DA3A73100C7CE66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D74DF32ABAADA223D1995DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SOPaypal/Pods-SOPaypal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D3C7779F1FDC93BE5A014B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D431EB9A923B89AD93BDE7F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SOPaypal/Pods-SOPaypal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F954A4F31DA3A73100C7CE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F954A4FD1DA3A73100C7CE66 /* ViewController.swift in Sources */,
+				F954A4FB1DA3A73100C7CE66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F954A4FE1DA3A73100C7CE66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F954A4FF1DA3A73100C7CE66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F954A5031DA3A73100C7CE66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F954A5041DA3A73100C7CE66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F954A5071DA3A73100C7CE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F954A5081DA3A73100C7CE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F954A50A1DA3A73100C7CE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD7A06B8496D8D84137EEFD /* Pods-SOPaypal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SOPaypal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.extention.SOPaypal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/SOTSYS203/Desktop/SOPaypal/SOPaypal/SOPaypal-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		F954A50B1DA3A73100C7CE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303B628F30912A1083708267 /* Pods-SOPaypal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SOPaypal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.extention.SOPaypal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/SOTSYS203/Desktop/SOPaypal/SOPaypal/SOPaypal-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F954A4F21DA3A73100C7CE66 /* Build configuration list for PBXProject "SOPaypal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F954A5071DA3A73100C7CE66 /* Debug */,
+				F954A5081DA3A73100C7CE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F954A5091DA3A73100C7CE66 /* Build configuration list for PBXNativeTarget "SOPaypal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F954A50A1DA3A73100C7CE66 /* Debug */,
+				F954A50B1DA3A73100C7CE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F954A4EF1DA3A73100C7CE66 /* Project object */;
+}
